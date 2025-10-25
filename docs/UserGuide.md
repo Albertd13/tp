@@ -132,7 +132,6 @@ Filters persons whose fields match the keywords.
 **Format**:  
 `find [n/NAME_KEYWORDS] [p/PHONE_KEYWORDS] [e/EMAIL_KEYWORDS] [a/ADDRESS_KEYWORDS] [t/TAG_KEYWORDS]`
 
-<div markdown="block" class="alert alert-info">
 
 :information_source: **Important Note:** <br>
 * The search is <u>case-insensitive</u> e.g `n/hans` will match `Hans`.
@@ -140,7 +139,6 @@ Filters persons whose fields match the keywords.
  Multiple keywords per field are allowed. e.g. `n/Hans Bo` will match `Hans Lee` and `Bo Bae`.
 * Only full words will be matched e.g. `n/Han` will not match `Hans`, `p/94628739` will not match `9462 8739`.
 
-</div>
 
 **Expected Outcome:**
 * Displays all persons who matches at least one keyword in each given field.
